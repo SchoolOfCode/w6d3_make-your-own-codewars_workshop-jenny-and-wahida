@@ -47,3 +47,15 @@ Overview: {brief description of what your kata is about}
 🌟 Once you've tested it with other groups, you can then use the [Codewars docs](https://docs.codewars.com/authoring/tutorials/create-first-kata/) to figure out how to upload it to Codewars itself.
 
 Note: You need more than 300 honor points on your Codewars account to be able to upload your own kata!
+
+
+
+## Plan
+
+function (word1, word2) {
+assign vowels a score of X
+assign consonants a score of Y
+add up scores for each word, return the word that wins
+if it's a draw, return "tie"
+
+}
