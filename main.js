@@ -1,38 +1,42 @@
 /* 
 👉 Write your kata here!
 
+Word Battle!
+
 Your function will take in two words. 
 
-If a word includes any characters that aren't letters, return "This is an alien language"
-The words must be the same number of letters. If the words do not have the same number of letters, return "It's not a fair fight!"
+If either word includes any characters that aren't letters, your function should return: "This is an alien language"
 
-Each letter in each word has a points value. 
-Vowels will score 5 points each, consonants will score 2 points each.
+To be a fair fight, the words must have the same number of letters. If the words do not have the same number of letters, your function should return: "It's not a fair fight!"
+
+If the words do have the same number of letters, the fight is on! 
+
+Each letter in each word has a points value. Vowels will score 5 points each, consonants will score 2 points each.
 Your function must return the word which has the highest score, along with the score, in the form: ["word", score]
-If the score is a draw, return ["tie", score]
+If the score is a draw, your function should return: ["tie", score]
 
 Example:
 
 function("hello", "alien"):
-function would return ["alien", 19]
+would return ["alien", 19]
 
 function("HOTEL", "CRAMP"):
-function would return ["HOTEL", 16]
+would return ["HOTEL", 16]
 
 function("HELLO", "apple"):
-function would return ["tie", 16]
+would return ["tie", 16]
 
 function("dopamine", "apple"):
-function would return "It's not a fair fight!"
+would return "It's not a fair fight!"
 
 function("letters", "%--"):
-function would return "This is an alien language"
+would return "This is an alien language"
 
 */
 
 
 //👉 Write the function your CodeWarriors will start with below here:
-export function scoreWord (word1, word2) {
+export function scoreWord (wordOne, wordTwo) {
     //Write your function here
     return 
 }

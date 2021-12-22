@@ -26,7 +26,6 @@ function would return ["tie", 16]
 */
 
 
-import { createTestScheduler } from '@jest/core';
 import { scoreWord } from './main.js';
 
 // check the format of response is correct - i.e. array with 2 elements
